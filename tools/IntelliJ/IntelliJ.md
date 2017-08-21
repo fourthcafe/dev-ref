@@ -34,8 +34,7 @@ windows에서는 print 키로 유용하게 사용하는 단축키인데 mac에�
 show menu::메뉴 보이기
 	mac::⌃F2	(custom)
 
-windows에서는 alt+해당키(언더라인이 붙어 있는 알파벳)
-mac에서는 역시 해당키가 없는 것 같아 custom으로 사용 중이다. 
+windows에서는 alt+해당키(언더라인이 붙어 있는 알파벳) mac에서는 역시 해당키가 없는 것 같아 custom으로 사용 중이다.
 이 키는 IntelliJ shortcut이 아니라 mac의 환경설정이다.
 [시스템 환경설정]-[키보드]-[단축키]-[상태 막대로 초점 이동]
 ```
