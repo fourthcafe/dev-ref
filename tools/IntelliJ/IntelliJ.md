@@ -38,3 +38,8 @@ windows에서는 alt+해당키(언더라인이 붙어 있는 알파벳) mac에�
 이 키는 IntelliJ shortcut이 아니라 mac의 환경설정이다.
 [시스템 환경설정]-[키보드]-[단축키]-[상태 막대로 초점 이동]
 ```
+```
+quick documentation::현재 커서 위치의 관련 문서 보기
+	win::ctrl+Q
+	mac::F1
+```
