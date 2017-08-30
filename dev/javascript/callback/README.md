@@ -30,8 +30,8 @@ var jsObj = function() {
 	},
 
 
+	// 3. 넘겨받은 매개변수 중 this의 변수 이름을 context로 지정
 	this.close = function(cbFunc, context) {
-		// 3. 넘겨받은 매개변수 중 this의 변수 이름을 context로 지정
 		this.template.fadeOut(300, function() {
 			if (typeof cbFunc === 'function') {
 				cbFunc(context);	// 4. callback함수에 context를 매개변수로 넘겨줌
