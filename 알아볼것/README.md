@@ -43,6 +43,9 @@ pubilc String example() {
 * 서비스에서 DATA만 받아오면 되지 않을까?
 	*
 
-### insert, update, delete 구문의 위치
+### mybatis를 이용한 mapper 작성시 insert, update, delete 구문의 위치
 
 mybatis를 사용하는 경우 select의 경우에는 워낙 여러 테이블이 join 될 수 있으니 위치가 개발자의 판단에 따라 여러 곳일 수 있다고 생각한다. 하지만 insert, update, delete의 경우에는 하나의 테이블만 참여하니 테이블과 mapper가 1:1이 되어야 한다고 생각하는데 내가 잘못 생각하고 있는 것일까?
+
+
+### Exception
