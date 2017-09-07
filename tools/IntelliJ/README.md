@@ -43,3 +43,19 @@ quick documentation::현재 커서 위치의 관련 문서 보기
 	win::ctrl+Q
 	mac::F1
 ```
+```
+import
+	win::alt+enter
+```
+```
+불필요한 import 제거
+	win::ctrl+alt+o
+```
+```
+call depth 보기
+	win::ctrll+alt+h
+```
+```
+호출하는 곳 보기
+	win::ctrl+alt+F7
+```
