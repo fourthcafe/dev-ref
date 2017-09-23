@@ -13,3 +13,7 @@
 [시스템] > [키보드] > [기능 키]에서 Function키를 터치바에 기본으로 보이게할 프로그램을 지정해 줄 수 있는데 Jetbrains사의 프로그램은 이게 정상적으로 먹질 않는다.
 
 이런 경우 다음처럼 등록해주면 된다.
+
+[시스템] > [키보드] > [기능] 키]에서 [+] 후 응용프로그램 창에서 [CMD+SHIFT+G], [~/라이브러리/Application Support/JetBrains/Toolbox/apps] 폴더에서 해당 어플리케이션 찾아가기
+
+[Ref](https://stackoverflow.com/questions/43199785/jetbrains-products-not-showing-fn-keys-on-touchbar)
