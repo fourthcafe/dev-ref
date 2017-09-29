@@ -60,6 +60,25 @@ DB handling에서 가장 중요한 요소 중 하나인데 내용 정리가 필�
 코딩을 하다보면 이 경계를 명확히 구분 짓기가 어렵다. 정리가 필요하다.
 * service는 다른 service를 호출할 수 있는가?
 
+	#### 170929 idea
+	- controller
+
+		mvc에서 controller는 (business) model과 view를 연결해주기 위한 중개자로서의 역할만을 해야 한다고 생각한다.
+
+	- service
+
+	- dao
+
+	REF::[business의 복잡도에 따라 service layer가 복잡해지는 현상](https://slipp.net/questions/386)
+
+	REF::[mvc 나누기](http://egloos.zum.com/zeous/v/2087967)
+
+	> 일반적인 형태는 service-dao 는 1:1 , service 간 호출은 ok. 단, 이때 service 간 호출 rule 은 엄격하게 정의되어야 한다.
+
+	> A->B 는 허용, B->A는 절대 불가.
+
+	> 단순 CRUD 위주라면 괜찮지만 결제같이 로그도 남기고, 중간에 transaction 끊고 한다면 확실히 1 service, multi dao 는 어려울 듯. 이때 dao는 진짜 CRUD 수준, service 는 validation, process 등등 수행.. 상위 서비스는 여러 service 를 거느린다. (구매서비스가 사용자서비스-요청서비스-결제서비스-상품제공서비스 콜하는 그런 수순이 될 듯 하네요.)
+근데 여기서도 고민되는게, 예를 들어 요청서비스에 대한 validation 로직 중 "사용자가 미성년자여서는 안된다" 라는 것이 있을 경우, 이를 어떻게 알까? 하는 게 궁금하네요. 요청서비스 call 할 때 사용자 정보를 넘기는 형태인가? 아니면 요청서비스가 또 사용자서비스를 call 하는 형태일까? 또, 상위 서비스와 하위 서비스는 어떻게 나눌 것인가? (이걸 진짜 잘 해야겠지요. 한번 엉클어지면 개판이 될 테니...)
 
 
 ### AOP
