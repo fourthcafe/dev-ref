@@ -7,7 +7,6 @@
 mac 사용법은 따로 항목을 만들어 남기기로 하고 여기서는 IntelliJ-넓게 봐서는 JetBrains사의 ide들-에 대한 사용법을 남긴다.
 
 
-
 ## JetBrains shortcut
 ```
 last edit locaion::마지막 편집 위치로 돌아가기
@@ -26,7 +25,7 @@ forward::이후 커서 위치로 돌아가기
 ```
 ```
 show context menu::context 메뉴 보이기(마우스 오른쪽 버튼)
-	mac::⌘\	(custom)
+	mac::⌘+\	(custom)
 
 windows에서는 print 키로 유용하게 사용하는 단축키인데 mac에서는 해당 키가 없는 것 같아 custom으로 만들어서 사용 중이다.
 ```
@@ -42,26 +41,4 @@ windows에서는 alt+해당키(언더라인이 붙어 있는 알파벳) mac에�
 quick documentation::현재 커서 위치의 관련 문서 보기
 	win::ctrl+Q
 	mac::F1
-```
-```
-import
-	win::alt+enter
-```
-```
-Optimize Import::불필요한 import 제거
-	win::ctrl+alt+o
-	mac::⌃⌥o
-```
-```
-Quick Definition::현재 커서의 메소드 or 클래스의 소스보기
-	win::ctrl+shift+i
-	mac::⌘Y	or ⌥Space | ⌥Space 키의 경우 자판이 한글로 되어 있는 경우 작동 안함
-```
-```
-call depth 보기
-	win::ctrl+alt+h
-```
-```
-호출하는 곳 보기
-	win::ctrl+alt+F7
 ```
